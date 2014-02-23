@@ -9,11 +9,14 @@ div.post-img:before {
   vertical-align: bottom;
   margin-right: -0.25em; /* Adjusts for spacing */
 }
-
+div.post-video {
+	text-align: center; 
+}
 div.post-img img{
 	display:  inline-block;
 	vertical-align: bottom;
 }
+
 div.post-captain {
 	overflow: hidden;
 }
