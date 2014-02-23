@@ -57,7 +57,7 @@ function update_posts( posts ){
             var item = sep_posts_by_three[row_i][col_j] ;
             text += '<div class="col-md-4">';
             text += '<div class="post-video"><iframe width="280" height="200" src="//www.youtube.com/embed/'+item.youtube_code+'" frameborder="0" allowfullscreen></iframe></div>';
-            text += '<div class="post-tool"><a class="btn btn-primary btn-xs" href="'+item.source+'">更多</a> <a class="btn btn-warning btn-xs share-btn" href="https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent("http://youtu.be/"+ item.youtube_code )+'" target="_blank">分享</a></div>';
+            text += '<div class="post-tool"><a class="btn btn-primary btn-xs" target="_blank" href="'+item.source+'">更多</a> <a class="btn btn-warning btn-xs share-btn" href="https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent("http://youtu.be/"+ item.youtube_code )+'" target="_blank">分享</a></div>';
             text += '<div class="post-title" >' + item.name +'</div>'; 
             text += '<div class="post-source-name">轉貼來源--' + item.from.name+'</div>';
             text += '<div class="post-captain"><p>' + item.message + '</p></div>';
